@@ -192,11 +192,14 @@ header {
 }
 .content-is-none {
     opacity: 0;
+    visibility: hidden;
     transition: opacity 0.5s ease-in-out;
 }
 .content-is-active {
     opacity: 1;
+    visibility: visible;
     transition: opacity 0.5s ease-in-out;
+    
 }
 
 /* Home content */
