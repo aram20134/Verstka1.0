@@ -199,8 +199,11 @@ header {
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease-in-out;
+    
 }
+
 /* Home content */
+
 .home {
     display: flex;
     position: relative;
@@ -276,7 +279,7 @@ header {
 .home-text a {
     max-width: 250px;
     text-decoration: none;
-    color: rgb(41, 37, 37);
+    color: rgb(49, 47, 47);
     line-height: 1.4;
     transition: color 0.5s ease-in-out;
 }
@@ -293,4 +296,17 @@ header {
 .effects2:hover {
     transition: color 0.4s ease-in-out;
     color: white;
+}
+
+/* Works content */
+
+.works {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 900px;
+    max-width: 75%;
+    height: 100%;
+    justify-content: center;
 }
