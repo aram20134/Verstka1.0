@@ -8,8 +8,6 @@ $(document).ready(function() {
             $(this).removeClass('none-active');
             $(this).toggleClass('is-active');
         }
-    });    
-});
         if ($('.Home').hasClass("is-active")) {
             $('.main-content li').removeClass('content-is-active');
             $('.main-content li:nth-child(1)').addClass('content-is-active');
