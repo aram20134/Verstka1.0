@@ -275,6 +275,7 @@ header {
     width: 100%;
     padding: 0;
     margin: 0;
+    justify-content: space-between;
 }
 .home-text a {
     max-width: 250px;
@@ -309,4 +310,17 @@ header {
     max-width: 75%;
     height: 100%;
     justify-content: center;
+}
+.works h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.images {
+    position: relative;
+
+}
+.slider {
+    list-style: none;
+    width: 80%;
 }
