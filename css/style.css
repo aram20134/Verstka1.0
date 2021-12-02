@@ -352,4 +352,12 @@ header {
     justify-content: center;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+.slider p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #6d6d6d;
 }
