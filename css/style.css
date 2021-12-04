@@ -355,6 +355,7 @@ header {
     object-fit: cover;
     justify-content: center;
     overflow: hidden;
+    display: flex;
 }
 .img-active {
     width: 300px;
@@ -393,4 +394,74 @@ header {
     margin-top: 10px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+.btn-left {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #282828;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 160px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-right {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #282828;
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 160px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-left::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 5px;
+    background-color: brown;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+    bottom: 15px;
+}
+.btn-left::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 5px;
+    background-color: cyan;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    top: 15px;
+}
+.btn-right::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 5px;
+    background-color: brown;
+    border-radius: 50%;
+    transform: rotateZ(-45deg);
+    bottom: 15px;
+}
+.btn-right::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 5px;
+    background-color: cyan;
+    border-radius: 50%;
+    transform: rotateZ(45deg);
+    top: 15px;
 }
